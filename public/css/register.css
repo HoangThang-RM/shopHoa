@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+#register {
+    width: 1200px;
+    margin-top: 50px;
+}
+
+#register form {
+    text-align: center;
+}
+
+.form-register {
+    width: 360px;
+    height: 35px;
+    border-style: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+form label {
+    display: block;
+    width: 360px;
+    text-align: left;
+}
+
+#option {
+    padding: 20px;
+}
+
+#submit-register {
+    font-size: 22px;
+    color: #ffffff;
+    width: 360px;
+    height: 45px;
+    background-color: #5f9ea0;
+    border-radius: 10px;
+}
+
+.error-register {
+    display: block;
+    width: 360px;
+    color: #ff0000;
+    text-align: left;
+}

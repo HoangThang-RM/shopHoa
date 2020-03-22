@@ -1,0 +1,140 @@
+* {
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+#header {
+    width: 1200px;
+    padding: 10px;
+}
+
+#logo-header {
+    float: left;
+    width: 120px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#logo-img {
+    height: 60px;
+    width: 120px;
+}
+
+#search-master {
+    width: 400px;
+    margin-left: 100px;
+    float: left;
+    position: relative;
+}
+
+#search-header {
+    height: 30px;
+    width: 360px;
+    display: block;
+    float: left;
+    margin-top: 15px;
+    border: solid 1px;
+    border-color: #a9a9a9;
+    border-right: hidden;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#submit-search {
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    float: right;
+    margin-top: 15px;
+    border: solid 1px;
+    border-color: #a9a9a9;
+    border-left: hidden;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#user-header {
+    float: right;
+    height: 40px;
+    width: 200px;
+    margin: 10px 100px auto;
+}
+
+#user-header a {
+    padding: 10px;
+    color: #000000;
+}
+
+#user-header a:hover {
+    color: #a52a2a;
+}
+
+#nav {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    text-align: center;
+    background-color: #5f9ea0;
+}
+
+#nav>ul {
+    text-align: left;
+    width: 1200px;
+    list-style-type: none;
+    padding: 0;
+    background-color: #5f9ea0;
+}
+
+#nav>ul>li {
+    text-align: center;
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    background-color: #5f9ea0;
+    position: relative;
+}
+
+#nav>ul>li>a {
+    text-decoration: none;
+    display: block;
+    color: #f1f1f1;
+}
+
+#nav>ul>li>a:hover {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+.submenu {
+    position: absolute;
+    display: none;
+    padding-left: 0;
+    z-index: 20;
+}
+
+.submenu li {
+    text-align: left;
+    width: 190px;
+    list-style-type: none;
+    background-color: #5f9ea0;
+    padding-left: 30px;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.submenu a:hover {
+    color: #000;
+}
+
+#nav li:hover .submenu {
+    display: block;
+}

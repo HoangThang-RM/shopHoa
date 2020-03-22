@@ -50,7 +50,7 @@
     text-decoration: none;
 }
 
-#submit-login {
+#btn-submit-login {
     font-size: 22px;
     color: #ffffff;
     width: 360px;
@@ -113,7 +113,7 @@
     margin: 10px;
 }
 
-#submit-forgetPass {
+#btn-submit-forgetPass {
     font-size: 22px;
     color: #ffffff;
     width: 360px;
@@ -134,6 +134,13 @@
 }
 
 .an-hien-thi {
-    transition: 1s;
     display: none;
+}
+
+.error-login {
+    padding-top: 10px;
+    display: block;
+    width: 360px;
+    color: #ff0000;
+    text-align: left;
 }

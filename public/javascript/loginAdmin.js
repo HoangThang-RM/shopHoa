@@ -19,7 +19,7 @@ $(document).ready(function() {
     $("#login-user").submit(function() {
         let username = $("#user-login").val();
         let password = $("#password-login").val();
-        let account = 'users';
+        let account = 'admin';
         let error = $(".error-login");
         error.html("");
         //check xem tài khoản và mật khẩu trống không

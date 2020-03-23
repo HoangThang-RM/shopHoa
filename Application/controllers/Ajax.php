@@ -12,9 +12,11 @@
             {
                 $usernameinput = $_POST["username"];
                 $passwordinput = $_POST["password"];
+                $accountinput = $_POST['account'];
                 $model = $this->model("modelLogin");
                 $data = $model->kiemtralogin(['username'=>$usernameinput
                                             ,'password'=>$passwordinput 
+                                            ,'account'=>$accountinput
                                             ]);
                 if(!empty($data))
                 {
@@ -32,6 +34,7 @@
             echo 0;
             exit();
         }
+
     }
     
 ?>

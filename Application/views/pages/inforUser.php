@@ -3,5 +3,5 @@
 Thông tin khách hàng...
 </br>
 <button id="clear-section">
-    <a href="http://localhost:8888/live/user/logout" style="text-decoration: none; color: black;"> log out </a>
+    <a href="<?php echo getUrl("user/logout"); ?>" style="text-decoration: none; color: black;"> log out </a>
 </button>

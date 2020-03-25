@@ -1,13 +1,17 @@
 <?php
 class user extends conectMV{
     function show(){
+        if(!empty($_SESSION['inforusers']))
+        {
+            header('Location: '.getUrl('user/infor'));
+        }
         $vie = $this->view("layout-user",["pages"=>"login"]);
     }
     function login()
     {
-        if(!empty($_SESSION['inforUser']))
+        if(!empty($_SESSION['inforusers']))
         {
-            header('Location: http://localhost:8888/live/user/infor');
+            header('Location: '.getUrl('user/infor'));
         }
         $vie = $this->view("layout-user",["pages"=>"login"]);
     }
@@ -19,8 +23,8 @@ class user extends conectMV{
     }
 
     function logout(){
-        unset($_SESSION['inforUser']);
-        header('Location: http://localhost:8888/live/user/login');
+        unset($_SESSION['inforusers']);
+        header('Location: '.getUrl('user/login'));
     }
 }
 ?>

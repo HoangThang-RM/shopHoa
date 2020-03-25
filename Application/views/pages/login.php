@@ -1,13 +1,13 @@
 <link rel="stylesheet" type="text/css" href="/live/public/css/login.css">
 <script src="/live/public/javascript/login.js"></script>
 <div id="login">
-    <form action="http://localhost:8888/live/home" name="login-user" method="POST" id="login-user">
+    <form action="<?php echo getUrl("home");?>" name="login-user" method="POST" id="login-user">
         <h2>Đăng nhập tài khoản</h2>
         <input type="text" name="userLogin" id="user-login" class="form-login" placeholder="Email" value=""> </br>
         <input type="password" name="passwordLogin" id="password-login" class="form-login" placeholder="Password" value=""> </br>
         <div id="option">
             <div id="forgetPass"><h4><a href="#">Quên mật khẩu ?</a></div>
-            <div id="dangki"><a href="http://localhost:8888/live/user/register"><b>Đăng ký</b></a></h4> </div>
+            <div id="dangki"><a href="<?php echo getUrl("user/register"); ?>"><b>Đăng ký</b></a></h4> </div>
             <div class="clear"></div>
             <span class="error-login" id=""></span></br>
         </div>

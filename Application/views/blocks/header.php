@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="/live/public/css/header.css">
     <div id="header">
         <div id="logo-header">
-            <a href="http://localhost:8888/live/home"><img src="/live/public/images/anh.png" id="logo-img"></a>
+            <a href="<?php echo getUrl("home"); ?>"><img src="/live/public/images/anh.png" id="logo-img"></a>
         </div>
         <div id="search-master">
             <form action="#">
@@ -14,14 +14,14 @@
             <div class="clear"></div>
         </div>
         <div id="user-header">
-            <a href="http://localhost:8888/live/user/login"><i class="fa fa-user fa-2x"></i></a>
+            <a href="<?php echo getUrl("user/login"); ?>"><i class="fa fa-user fa-2x"></i></a>
             <a href="#"><i class="fa fa-shopping-cart fa-2x"></i></a>
         </div>
         <div class="clear"></div>
     </div>
     <div id="nav">
         <ul>
-            <li><a href="http://localhost:8888/live/home">TRANG CHỦ</a>
+            <li><a href="<?php echo getUrl("home"); ?>">TRANG CHỦ</a>
             <ul class="submenu">
                     <li><a href="#">Item1</a></li>
                     <li><a href="#">Item2</a></li>

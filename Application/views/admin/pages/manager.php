@@ -3,5 +3,5 @@
 Trang quản lý admin
 </br>
 <button id="clear-section">
-    <a href="http://localhost:8888/live/manage/logout" style="text-decoration: none; color: black;"> log out </a>
+    <a href="<?php echo getUrl("manage/logout")?>" style="text-decoration: none; color: black;"> log out </a>
 </button>

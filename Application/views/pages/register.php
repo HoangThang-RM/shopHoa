@@ -19,7 +19,7 @@
         <span class="error-register" id=""></span></br> 
         <button type="submit" name="submit-register" id="submit-register" clas="submit-register">Đăng ký</button>
         <div id="option">
-            <h4>Đã có tài khoản ? <a href="http://localhost:8888/live/user/login"><b>Đăng nhập</b></a>
+            <h4>Đã có tài khoản ? <a href="<?php echo getUrl("user/login")?>"><b>Đăng nhập</b></a>
         </div>
     </form>
 </div>

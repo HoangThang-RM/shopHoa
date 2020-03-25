@@ -2,17 +2,17 @@
 class admin extends conectMV{
     function show()
     {
-        if(!empty($_SESSION['inforUser']))
+        if(!empty($_SESSION['inforadmin']))
         {
-            header('Location: http://localhost:8888/live/manage');
+            header('Location: '.getUrl('manage'));
         }
         $vie = $this->view("admin/layout-login",["pages"=>"loginAdmin"]);
     }
     function login()
     {
-        if(!empty($_SESSION['inforUser']))
+        if(!empty($_SESSION['inforadmin']))
         {
-            header('Location: http://localhost:8888/live/manage');
+            header('Location: '.getUrl('manage'));
         }
         $vie = $this->view("admin/layout-login",["pages"=>"loginAdmin"]);
     }

@@ -23,7 +23,7 @@
                     // Nếu thông tin đăng nhập chính xác, trả về giá trị là 1
                     if ($usernameinput == $data["username"] && $passwordinput == $data["password"]) {
                         echo 1;
-                        $_SESSION['inforUser'] = $data;
+                            $_SESSION['infor'.$accountinput] = $data;
                         exit();
                      }
                 }                                      

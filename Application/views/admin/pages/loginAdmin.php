@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="/live/public/css/login.css">
 <script src="/live/public/javascript/loginAdmin.js"></script>
 <div id="login">
-    <form action="<?php echo getUrl("manage"); ?> name="login-user" method="POST" id="login-user">
+    <form action="<?php echo getUrl("manage"); ?>" name="login-user" method="POST" id="login-user">
         <h2>Đăng nhập tài khoản</h2>
         <input type="text" name="userLogin" id="user-login" class="form-login" placeholder="Email" value=""> </br>
         <input type="password" name="passwordLogin" id="password-login" class="form-login" placeholder="Password" value=""> </br>

@@ -134,7 +134,7 @@
 }
 
 .an-hien-thi {
-    display: none;
+    display: block;
 }
 
 .error-login {

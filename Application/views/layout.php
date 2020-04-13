@@ -10,8 +10,13 @@
          {
             print_r($data);
             echo "</brt></br>";
-         }
-?> 
+         }?> 
+    </div>
+    <div>
+        <?php $this->view('pages/home');?> 
+    </div>
+    <div>
+        <?php $this->view('blocks/footer');?> 
     </div>
 </body>
 </html>

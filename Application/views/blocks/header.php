@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="/live/public/css/header.css">
     <div id="header">
         <div id="logo-header">
-            <a href="<?php echo getUrl("home"); ?>"><img src="/live/public/images/anh.png" id="logo-img"></a>
+            <a href="<?php echo getUrl("home"); ?>"><img src="/live/public/images/anh1.png" id="logo-img"></a>
         </div>
         <div id="search-master">
             <form action="#">

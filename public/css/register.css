@@ -1,7 +1,3 @@
-* {
-    margin: 0 auto;
-}
-
 .clear {
     clear: both;
 }
@@ -9,6 +5,7 @@
 #register {
     width: 1200px;
     margin-top: 50px;
+    margin-bottom: 200px;
 }
 
 #register form {
@@ -38,7 +35,7 @@ form label {
     color: #ffffff;
     width: 360px;
     height: 45px;
-    background-color: #5f9ea0;
+    background-color: #fa3c7a;
     border-radius: 10px;
 }
 

@@ -1,4 +1,3 @@
-<body>
     <link rel="stylesheet" type="text/css" href="/live/public/css/ads.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="/live/public/javascript/ads.js"></script>
@@ -22,5 +21,3 @@
             </ul>
         </div>
     </div>
-</body>
-</html>

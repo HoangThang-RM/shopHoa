@@ -1,0 +1,79 @@
+.clear {
+    clear: both;
+}
+
+.footer-ex {
+    width: 100%;
+    background-color: #eaeded;
+}
+
+#footer-main {
+    width: 1200px;
+    height: auto;
+}
+
+.footer {
+    float: left;
+    margin: 30px 0 20px 0;
+}
+
+.about {
+    width: 450px;
+    padding-left: 50px;
+    overflow: hidden;
+}
+
+#footer-main a {
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    color: black;
+}
+
+#footer-main ul {
+    overflow: hidden;
+    margin: 0;
+    padding-left: 0;
+    width: 400px;
+}
+
+#footer-main ul li {
+    width: 450px;
+    list-style: none;
+}
+
+#footer-main ul li:hover a {
+    color: #b30000;
+}
+
+.contact {
+    width: 300px;
+}
+
+.link {
+    width: 300px;
+    margin-left: 50px;
+}
+
+.contact p {
+    margin-top: 10px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.contact span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.link p {
+    margin-top: 10px;
+}
+
+.signature {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 5px 10px;
+    background-color: #5b5b5b;
+    color: rgba(255, 255, 255, 0.5);
+}
